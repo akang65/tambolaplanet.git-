@@ -1,0 +1,397 @@
+﻿
+.color {
+    color: rgb(0, 131, 219);
+}
+
+* {
+    outline: none;
+}
+
+#body {
+    background: rgb(52, 157, 255);
+    background-image: linear-gradient(rgb(150, 195, 215), rgb(225, 250, 250)) !important;
+}
+
+#mainDiv {
+    width: 80%;
+    margin-left: 10%;
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.titleImg {
+    width: 100%;
+}
+
+.timeDateDiv {
+    width: 100%;
+    display: grid;
+    background: #98c1d9 !important;
+    grid-template-columns: auto auto auto;
+    margin-top: 0px;
+}
+
+.inp {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    border: 0px solid black;
+}
+
+.transBtn {
+    border: 0px solid grey;
+    font-size: 15px;
+    padding: 5px;
+    background: rgba(0,0,0, 0);
+    outline: none;
+}
+
+.transBtn1 {
+    border: 0px solid grey;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    background: #283241 !important;
+    color: #e1fafa;
+    outline: none;
+}
+
+.transBtn2 {
+    border: 0px solid grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    background: rgba(0,0,0, 0);
+    outline: none;
+}
+
+.savesetting {
+    border: 0px solid grey;
+    font-size: 15px;
+    padding: 5px;
+    background: rgba(0,0,0, 0);
+    outline: none;
+}
+
+.playedNumDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    justify-content: center;
+}
+
+.playedNumBtn {
+    border: 0px solid grey;
+    background: rgb(0, 152, 253);
+    margin: 1px;
+    font-size: 20px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.dropDown {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.dateTime {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.startDiv {
+    width: 100%;
+    border: 0px solid rgba(255, 0, 157, 0.493);
+    background: blueviolet;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    background: blueviolet;
+}
+
+.calender {
+    width: 30px;
+}
+
+.startDate {
+    font-size: 15px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: 0px solid grey;
+}
+
+.countDownTime {
+    font-size: 15px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: 0px solid grey;
+    margin-left: 30%;
+}
+
+.clock {
+    width: 30px;
+    margin-left: 30%;
+}
+
+.timeStart {
+    font-size: 15px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: 0px solid grey;
+}
+
+.winTypeBtn {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background: blueviolet;
+    border: 0px solid grey;
+    margin-top: 3px;
+    padding: 15px;
+}
+
+.winTypeBtn1 {
+    font-size: 20px;
+    color: #fff !important;
+    background: #3c5a82 !important;
+    width: 100%;
+    border: 0px solid grey;
+    margin-top: 3px;
+    padding: 15px;
+}
+
+.winTicketDisplayDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.winTicketDisplayBtn {
+    border: 0px solid grey;
+    margin: 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.titleDiv {
+    background-image: linear-gradient(to right bottom, rgb(62, 43, 100), rgb(112, 83, 163)) !important;
+    color: #e3e7ed;
+    padding: 20px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.menubottom {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 30px 20px 10px 20px;
+    color: #777;
+}
+
+.changemode {
+    border: 0px solid grey;
+    font-size: 20px;
+    font-weight: 600;
+    background: #f06e4b !important;
+    color: #e1fafa !important;
+    padding: 16px;
+    margin: auto;
+    border-radius: 60px;
+    outline: none;
+    width: 30%;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    #body {
+        background-image: linear-gradient(rgb(150, 195, 215), rgb(225, 250, 250)) !important;
+    }
+
+    #mainDiv {
+        width: 100%;
+        margin-left: 0%;
+        border: 3px solid red;
+    }
+
+    .titleImg {
+        width: 100%;
+    }
+
+    .timeDateDiv {
+        width: 100%;
+        background: #98c1d9 !important;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .inp {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .transBtn {
+        border: 0px solid grey;
+        font-size: 25px;
+        padding: 10px;
+        background: rgba(0,0,0, 0);
+        outline: none;
+    }
+
+    .transBtn1 {
+        border: 0px solid grey;
+        font-size: 28px;
+        font-weight: 600;
+        background: #283241 !important;
+        color: #e1fafa;
+        padding: 10px;
+        outline: none;
+    }
+
+    .transBtn2 {
+        border: 0px solid grey;
+        font-size: 32px;
+        font-weight: bold;
+        padding: 14px;
+        background: rgba(0,0,0, 0);
+        outline: none;
+    }
+
+    .savesetting {
+        border: 0px solid grey;
+        font-size: 36px;
+        padding: 12px;
+        background: #568d46 !important;
+        color: #e1fafa;
+        margin-top: 10px !important;
+        outline: none;
+    }
+
+    .playedNumDiv {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+        justify-content: center;
+    }
+
+    .playedNumBtn {
+        border: 0px solid grey;
+        background: rgb(0, 152, 253);
+        margin: 1px;
+        font-size: 40px;
+        padding: 10px;
+        color: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .dropDown {
+        width: 100%;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .dateTime {
+        width: 49%;
+        font-size: 35px;
+        padding: 4px;
+        margin: 4px;
+    }
+
+    .dateTimelabel {
+        width: 50%;
+        font-size: 30px;
+        padding: 5px;
+        color: white;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text-center {
+        align-items: center;
+    }
+
+    .startDiv {
+        width: 100%;
+        border: 0px solid rgba(255, 0, 157, 0.493);
+        background: blueviolet;
+        font-size: 40px;
+        padding: 10px;
+        margin-top: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .winTypeBtn {
+        font-size: 40px;
+        color: white;
+        width: 100%;
+        background: blueviolet;
+        border: 0px solid grey;
+    }
+
+    .winTypeBtn1 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fff !important;
+        background: #3c5a82 !important;
+        width: 100%;
+        border: 0px solid grey;
+    }
+
+    .winTicketDisplayDiv {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    }
+
+    .winTicketDisplayBtn {
+        border: 0px solid grey;
+        margin: 1px;
+        font-size: 40px;
+        color: white;
+        padding: 10px;
+    }
+
+    .titleDiv {
+        background-image: linear-gradient(to right bottom, rgb(62, 43, 100), rgb(112, 83, 163)) !important;
+        color: #e3e7ed;
+        padding: 20px;
+    }
+
+    .menubottom {
+        font-weight: 600;
+        font-size: 32px;
+        padding: 30px 20px 10px 20px;
+        color: #777;
+    }
+
+    .changemode {
+        border: 0px solid grey;
+        font-size: 32px;
+        font-weight: 600;
+        background: #f06e4b !important;
+        color: #e1fafa !important;
+        padding: 16px;
+        width: 50%;
+        margin: auto;
+        border-radius: 60px;
+        outline: none;
+    }
+}

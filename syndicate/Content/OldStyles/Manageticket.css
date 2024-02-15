@@ -1,0 +1,213 @@
+﻿
+.color {
+    color: rgb(133, 135, 136);
+}
+
+* {
+    outline: none;
+}
+
+#body {
+    background: rgb(52, 157, 255);
+    background-image: linear-gradient(rgb(4, 153, 163), rgb(3, 58, 68));
+}
+
+#mainDiv {
+    width: 80%;
+    margin-left: 10%;
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.titleImg {
+    width: 100%;
+}
+
+.winTypeBtn {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background: blueviolet;
+    border: 0px solid grey;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.winTypeBtn1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff !important;
+    background: #3c5a82 !important;
+    width: 100%;
+    border: 0px solid grey;
+    margin-top: 3px;
+    padding: 15px;
+}
+
+.winTypeBtn2 {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background: blueviolet;
+    border: 0px solid grey;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.winTypeBtn3 {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background: blueviolet;
+    border: 0px solid grey;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+#formDiv {
+    width: 100%;
+    background: #3c5a82;
+}
+
+.winTypeBtn4 {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background: blueviolet;
+    border: 0px solid grey;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.inp {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10%;
+    border: 0px solid cyan;
+    margin-top: 3px;
+}
+
+.winTicketDisplayDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.winTicketDisplayBtn {
+    border: 0px solid grey;
+    margin: 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.titleDiv {
+    background-image: linear-gradient(to right bottom, rgb(62, 43, 100), rgb(112, 83, 163)) !important;
+    color: #e3e7ed;
+    padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    #body {
+        background: rgb(52, 157, 255);
+        background-image: linear-gradient(rgb(4, 153, 163), rgb(3, 58, 68));
+    }
+
+    #mainDiv {
+        width: 100%;
+        margin-left: 0%;
+        border: 3px solid red;
+    }
+
+    .titleImg {
+        width: 100%;
+    }
+
+    .winTypeBtn {
+        font-size: 40px;
+        color: white;
+        width: 100%;
+        background: blueviolet;
+        border: 0px solid grey;
+    }
+
+    .winTypeBtn1 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fff !important;
+        background: #3c5a82 !important;
+        width: 100%;
+        border: 0px solid grey;
+    }
+
+    .winTypeBtn2 {
+        font-size: 40px;
+        color: #fff !important;
+        width: 100%;
+        background: #5c9933 !important;
+        border: 0px solid grey;
+        padding: 14px 80px 14px 70px;
+        margin-right: 16px;
+    }
+
+    .winTypeBtn3 {
+        font-size: 40px;
+        color: #fff !important;
+        width: 100%;
+        background: #ee6c4d !important;
+        border: 0px solid grey;
+        padding: 14px 72px 14px 78px;
+    }
+
+    .winTypeBtn4 {
+        font-size: 36px;
+        color: #555;
+        width: 100%;
+        background: blueviolet;
+        border: 0px solid grey;
+        padding: 15px;
+        margin-top: 3px;
+    }
+
+    #formDiv {
+        width: 100%;
+        background: #3c5a82;
+    }
+
+    .inp {
+        width: 90%;
+        font-size: 35px;
+        padding: 15px;
+        margin-left: 5%;
+    }
+
+    .winTicketDisplayDiv {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    }
+
+    .winTicketDisplayBtn {
+        border: 0px solid grey;
+        margin: 1px;
+        font-size: 40px;
+        color: white;
+        padding: 10px;
+    }
+
+    .titleDiv {
+        background-image: linear-gradient(to right bottom, rgb(62, 43, 100), rgb(112, 83, 163)) !important;
+        color: #e3e7ed;
+        padding: 20px;
+    }
+
+    #menuDiv1 {
+        display: inline-block !important;
+    }
+}
+
+

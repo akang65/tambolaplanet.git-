@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+	<!--Script Link  put befor end of </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+<body>
+<h5 class=text-center> Flyer <h5>
+<div class="row text-center">
+	<div class="col-5"><span>Total ticket</span></div>
+	<div class="col-6 "><input type="number" id="TotalTicket" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Ticket Price</span></div>
+	<div class="col-6 "><input type="number" id="TicketPrice" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center mt-2">
+	<div class="col-5"><span>Fullhouse 1</span></div>
+	<div class="col-6 "><input type="number" id="1" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 2</span></div>
+	<div class="col-6 "><input type="number" id="2" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 3</span></div>
+	<div class="col-6 "><input type="number" id="3" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 4</span></div>
+	<div class="col-6 "><input type="number" id="4" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 5</span></div>
+	<div class="col-6 "><input type="number" id="5" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 6</span></div>
+	<div class="col-6 "><input type="number" id="6" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 7</span></div>
+	<div class="col-6 "><input type="number" id="7" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 8</span></div>
+	<div class="col-6 "><input type="number" id="8" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 9</span></div>
+	<div class="col-6 "><input type="number" id="9" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 10</span></div>
+	<div class="col-6 "><input type="number" id="10" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 11</span></div>
+	<div class="col-6 "><input type="number" id="11" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Fullhouse 12</span></div>
+	<div class="col-6 "><input type="number" id="12" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="container pt-3">
+	<div class="row text-center">
+	<div class="col-5"><span>Full sheet</span></div>
+	<div class="col-6 "><input type="number" id="fs" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Half Sheet</span></div>
+	<div class="col-6 "><input type="number" id="hs" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Top Line</span></div>
+	<div class="col-6 "><input type="number" id="tl" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Middle Line</span></div>
+	<div class="col-6 "><input type="number" id="ml" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Bottom Line</span></div>
+	<div class="col-6 "><input type="number" id="bl" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Quick Five</span></div>
+	<div class="col-6 "><input type="number" id="qf" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Star</span></div>
+	<div class="col-6 "><input type="number" id="s" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Corner</span></div>
+	<div class="col-6 "><input type="number" id="c" class="form-control form-control-sm">
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-5"><span>Footer flyer text</span></div>
+	<div class="col-6 "><input type="input" id="footer-flyer" class="form-control form-control-sm">
+	</div>
+</div>
+	</div>
+<div class="w-100 text-center"><button class="btn btn-success" onclick="btnclick()" >Create Flyer</button></div>
+
+
+	<div class="container text-center mt-3 ">
+		<div class="card bg-dark">
+			<div class="card-header text-warning font-marker">Tambola Planet</div>
+			<div class="card-body text-light fs-17">
+<div class="row text-center fs-14">
+	<div class="col-6  text-light">Total tickets :
+		<span id="a" class="text-warning"></span>
+	 </div>
+	<div class="col-6  text-light mb-2">Ticket Price : &#8377
+		<span id="b" class="text-warning"></span>
+	 </div>
+	</div>
+<div class="font-kolom">
+<div class="w-100 text-blue mt-3" style="display: none;" id="1f"><span>1st full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="2f"><span>2nd full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="3f"><span>3th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="4f"><span>4th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="5f"><span>5th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="6f"><span>6th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="7f"><span>7th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="8f"><span>8th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="9f"><span>9th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="10f"><span>10th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="11f"><span>11th full house :</span></div>
+<div class="w-100 text-blue" style="display: none;" id="12f"><span>12th full house :</span></div>
+<div class="w-100 text-light mt-3" style="display: none;" id="fsf"><span>Full Sheet :</span></div>
+<div class="w-100 text-light" style="display: none;" id="hsf"><span>Half Sheet :</span></div>
+<div class="w-100 text-light" style="display: none;" id="tlf"><span>Top Line :</span></div>
+<div class="w-100 text-light" style="display: none;" id="mlf"><span>Middle Line :</span></div>
+<div class="w-100 text-light" style="display: none;" id="blf"><span>Bottom Line :</span></div>
+<div class="w-100 text-light" style="display: none;" id="qff"><span>Bottom Line :</span></div>
+<div class="w-100 text-light" style="display: none;" id="sf"><span>Star :</span></div>
+<div class="w-100 text-light" style="display: none;" id="cf"><span>Corner :</span></div>
+</div>
+			</div>
+			<div class="card-footer color-text font-satisfy" id="ftf"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<style>
+	.fs-12{
+		font-size:12px;
+	}
+	.fs-14{
+		font-size:14px;
+	}
+	.fs-17{
+		font-size:17px;
+	}
+	.font-marker{
+		font-family: 'Permanent Marker', cursive;
+	}
+		.font-satisfy{
+		font-family: 'Satisfy', cursive;
+	}
+	.font-kolom{
+		font-family: 'Kalam', cursive;
+	}
+	.color-text{
+		color:#f228ff;
+	}
+	.text-blue{
+		color:#ff7400;
+	}
+</style>
+<script type="text/javascript">
+	
+function btnclick(){
+		var totalTicket=document.getElementById("TotalTicket");
+	var totalTicket=document.getElementById("TicketPrice");
+	var txt1=document.getElementById("1").value;
+	console.log(txt1);
+	var txt2=document.getElementById("2").value;
+	var txt3=document.getElementById("3").value;
+	var txt4=document.getElementById("4").value;
+	var txt5=document.getElementById("5").value;
+	var txt6=document.getElementById("6").value;
+	var txt7=document.getElementById("7").value;
+	var txt8=document.getElementById("8").value;
+	var txt9=document.getElementById("9").value;
+	var txt10=document.getElementById("10").value;
+	var txt11=document.getElementById("11").value;
+	var txt12=document.getElementById("12").value;
+	var txtfs=document.getElementById("fs").value;
+	var txths=document.getElementById("hs").value;
+	var txttl=document.getElementById("tl").value;
+	var txtml=document.getElementById("ml").value;
+	var txtbl=document.getElementById("bl").value;
+	var txtqf=document.getElementById("qf").value;
+	var txts=document.getElementById("s").value;
+	var txtc=document.getElementById("c").value;
+	var txtfooter=document.getElementById("footer-flyer").value;
+
+
+	var flyer1=document.getElementById("1f");
+	var flyer2=document.getElementById("2f");
+	var flyer3=document.getElementById("3f");
+	var flyer4=document.getElementById("4f");
+	var flyer5=document.getElementById("5f");
+	var flyer6=document.getElementById("6f");
+	var flyer7=document.getElementById("7f");
+	var flyer8=document.getElementById("8f");
+	var flyer9=document.getElementById("9f");
+	var flyer10=document.getElementById("10f");
+	var flyer11=document.getElementById("11f");
+	var flyer12=document.getElementById("12f");
+	var flyerfs=document.getElementById("fsf");
+	var flyerhs=document.getElementById("hsf");
+	var flyertl=document.getElementById("tlf");
+	var flyerml=document.getElementById("mlf");
+	var flyerbl=document.getElementById("blf");
+	var flyerqf=document.getElementById("qff");
+	var flyers=document.getElementById("sf");
+	var flyerc=document.getElementById("cf");
+	var flyerfooter=document.getElementById("ftf");
+
+
+	if(txt1!="" ){
+		flyer1.innerText="1st full house : "+"\u{020B9}"+ txt1;
+		flyer1.style.display="block";
+	}
+	if(txt2!=""){
+		flyer2.innerText="2st full house : "+"\u{020B9}"+ txt2;
+		flyer2.style.display="block";
+	}
+	if(txt3!=""){
+		flyer3.innerText="3st full house : "+"\u{020B9}"+ txt3;
+		flyer3.style.display="block";
+	}
+	if(txt4!=""){
+		flyer4.innerText="4st full house : "+"\u{020B9}"+ txt4;
+		flyer4.style.display="block";
+	}
+	if(txt5!=""){
+		flyer5.innerText="5st full house : "+"\u{020B9}"+ txt5;
+		flyer5.style.display="block";
+	}
+	if(txt6!=""){
+		flyer6.innerText="6th full house : "+"\u{020B9}"+ txt6;
+		flyer6.style.display="block";
+	}
+	if(txt7!=""){
+		flyer7.innerText="7th full house : "+"\u{020B9}"+ txt7;
+		flyer7.style.display="block";
+	}
+	if(txt8!=""){
+		flyer8.innerText="8th full house : "+"\u{020B9}"+ txt8;
+		flyer8.style.display="block";
+	}
+	if(txt9!=""){
+		flyer9.innerText="9th full house : "+"\u{020B9}"+ txt9;
+		flyer9.style.display="block";
+	}
+	if(txt10!=""){
+		flyer10.innerText="10th full house : "+"\u{020B9}"+ txt10;
+		flyer10.style.display="block";
+	}
+	if(txt11!=""){
+		flyer11.innerText="11th full house : "+"\u{020B9}"+ txt11;
+		flyer11.style.display="block";
+	}
+	if(txt12!=""){
+		flyer12.innerText="12th full house : "+"\u{020B9}"+ txt12;
+		flyer12.style.display="block";
+	}
+
+if(txtfs!=""){
+		flyerfs.innerText="Full Sheet: "+"\u{020B9}"+ txtfs;
+		flyerfs.style.display="block";
+	}
+	if(txths!=""){
+		flyerhs.innerText="Half Sheet : "+"\u{020B9}"+ txths;
+		flyerhs.style.display="block";
+	}
+	if(txttl!=""){
+		flyertl.innerText="Top Line : "+"\u{020B9}"+ txttl;
+		flyertl.style.display="block";
+	}
+	if(txtml!=""){
+		flyerml.innerText="Middle Line : "+"\u{020B9}"+ txtml;
+		flyerml.style.display="block";
+	}
+	if(txtbl!=""){
+		flyerbl.innerText="Bottom Line : "+"\u{020B9}"+ txtbl;
+		flyerbl.style.display="block";
+	}
+	if(txtqf!=""){
+		flyerqf.innerText="Quick Five : "+"\u{020B9}"+ txtqf;
+		flyerqf.style.display="block";
+	}
+	if(txts!=""){
+		flyers.innerText=" Star : "+"\u{020B9}"+ txts;
+		flyers.style.display="block";
+	}
+	if(txtc!=""){
+		flyerc.innerText="Corner : "+"\u{020B9}"+ txtc;
+		flyerc.style.display="block";
+	}
+	if(txtfooter!=""){
+		flyerfooter.innerText= txtfooter;
+	}
+	var totaltick=document.getElementById("TotalTicket").value;
+	var price=document.getElementById("TicketPrice").value;
+
+	 var a=document.getElementById("a");
+	var b=document.getElementById("b");
+	a.innerText=totaltick;
+	b.innerText=price;
+}
+
+</script>

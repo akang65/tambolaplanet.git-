@@ -1,0 +1,55 @@
+﻿.tr-sold {
+    border: 2px solid;
+    font-size: 15px;
+    border-color: #463c3c;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ff5722;
+}
+
+th, td {
+    border: 2px solid;
+    font-size: 15px;
+    border-color: #463c3c;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #8bc34a;
+    color: #0a0a0a;
+}
+
+.background-lime {
+    background: #26292b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #26292b, #363c3f, #242526); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #26292b, #363c3f, #242526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.center-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    border: 2px solid;
+    border-color:white;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
